@@ -1,0 +1,13 @@
+{
+    "authername" : "Archana Bhosale",
+    "weatherpage" : {
+        "title" : "Weather"
+    },
+    "aboutpage" : {
+        "title" : "About Me"
+    },
+    "helppage" : {
+        "title" : "Help",
+        "helptext" : "This is some helpfull text."
+    }
+}
