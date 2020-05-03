@@ -5,7 +5,7 @@ const config = require('../config.json')
 const weather = require('./utility/weather')
 
 const app = express();
-
+const port = process.env.PORT || 3000
 
 const publicpath = path.join(__dirname, '../public')
 const viewpath = path.join(__dirname, '../template/views')
@@ -64,6 +64,6 @@ app.get('/help/*', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('Web-server app running on port 3000')
+app.listen(port, () => {
+    console.log(`Web-server app running on port ${port}`)
 })
